@@ -1,6 +1,6 @@
 # Blackjack Online 🃏
 
-A real-time multiplayer Blackjack game built with modern web technologies:
+This is wipe code by copilot. A real-time multiplayer Blackjack game built with modern web technologies:
 
 - **Frontend**: Next.js with TypeScript and Tailwind CSS
 - **Game Logic**: Rust compiled to WebAssembly for high performance
