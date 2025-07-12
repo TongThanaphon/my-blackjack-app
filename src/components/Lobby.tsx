@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useGame } from '@/contexts/GameContext';
+import { useState } from "react";
+import { useGame } from "@/contexts/GameContext";
 
 interface LobbyProps {
   onJoinRoom: () => void;
 }
 
 export default function Lobby({ onJoinRoom }: LobbyProps) {
-  const [roomId, setRoomId] = useState('');
-  const [playerName, setPlayerName] = useState('');
+  const [roomId, setRoomId] = useState("");
+  const [playerName, setPlayerName] = useState("");
   const { joinRoom, isConnected } = useGame();
 
   const handleJoinRoom = (e: React.FormEvent) => {
@@ -29,16 +29,25 @@ export default function Lobby({ onJoinRoom }: LobbyProps) {
     <div className="min-h-screen bg-gradient-to-br from-green-800 to-green-600 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-xl p-8 max-w-md w-full">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Blackjack Online</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">
+            Blackjack Online
+          </h1>
           <p className="text-gray-600">Join a room to start playing!</p>
-          <div className={`mt-2 text-sm ${isConnected ? 'text-green-600' : 'text-red-600'}`}>
-            {isConnected ? '🟢 Connected' : '🔴 Disconnected'}
+          <div
+            className={`mt-2 text-sm ${
+              isConnected ? "text-green-600" : "text-red-600"
+            }`}
+          >
+            {isConnected ? "🟢 Connected" : "🔴 Disconnected"}
           </div>
         </div>
 
         <form onSubmit={handleJoinRoom} className="space-y-6">
           <div>
-            <label htmlFor="playerName" className="block text-sm font-medium text-gray-700 mb-2">
+            <label
+              htmlFor="playerName"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
               Your Name
             </label>
             <input
@@ -46,14 +55,17 @@ export default function Lobby({ onJoinRoom }: LobbyProps) {
               id="playerName"
               value={playerName}
               onChange={(e) => setPlayerName(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
               placeholder="Enter your name"
               required
             />
           </div>
 
           <div>
-            <label htmlFor="roomId" className="block text-sm font-medium text-gray-700 mb-2">
+            <label
+              htmlFor="roomId"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
               Room ID
             </label>
             <div className="flex space-x-2">
@@ -62,7 +74,7 @@ export default function Lobby({ onJoinRoom }: LobbyProps) {
                 id="roomId"
                 value={roomId}
                 onChange={(e) => setRoomId(e.target.value.toUpperCase())}
-                className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
                 placeholder="Enter room ID"
                 required
               />

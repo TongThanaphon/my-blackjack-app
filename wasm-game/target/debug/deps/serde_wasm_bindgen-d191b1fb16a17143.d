@@ -1,9 +1,0 @@
-/Users/tongthanphon/Playground/my-blackjack-app/wasm-game/target/debug/deps/libserde_wasm_bindgen-d191b1fb16a17143.rmeta: /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/lib.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/de.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/error.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/ser.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/../README.md
-
-/Users/tongthanphon/Playground/my-blackjack-app/wasm-game/target/debug/deps/serde_wasm_bindgen-d191b1fb16a17143.d: /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/lib.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/de.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/error.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/ser.rs /Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/../README.md
-
-/Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/lib.rs:
-/Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/de.rs:
-/Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/error.rs:
-/Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/ser.rs:
-/Users/tongthanphon/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-wasm-bindgen-0.4.5/src/../README.md:
